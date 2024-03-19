@@ -2,8 +2,6 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
 
-
-
 const Contact = () => {
   const form = useRef();
 
@@ -11,12 +9,12 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-    .sendForm(
-      process.env.SERVICE_ID,
-      process.env.TEMPLATE_ID,
-      form.current,
-      process.env.FORM_ID
-    )
+      .sendForm(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        form.current,
+        process.env.REACT_APP_FORM_ID
+      )
       .then(
         function(response) {
           console.log("Email sent successfully:", response);
