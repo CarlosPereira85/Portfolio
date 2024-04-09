@@ -71,7 +71,7 @@ export const projectsData = [
     title: "Chat Dashboard",
     category: "Utilities",
     demoLink: "https://flamescalculator.netlify.app/",
-    description: "Ein einfaches Projekt, das ich mit React erstellt habe, um die Funktionsweise von React zu verstehen.",
+    description: "Ein Projekt, das ich mit Tkinter in Python entwickelt habe, um die Funktionsweise der Benutzeroberflächenentwicklung zu erkunden.",
   },
   {
     id: 8,
