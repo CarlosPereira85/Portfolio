@@ -45,7 +45,7 @@ export const projectsData = [
     category: "Full-Stack",
     demoLink: "https://unsplash-jqqo.onrender.com/",
     description:
-      " Ein weiteres gutes Werk, das von Joseph Obina zusammengestellt wurde und uns die Möglichkeit gab, durch ihn zu lernen. (DCI)",
+      "Ein weiteres gutes Werk, das von Joseph Obina zusammengestellt wurde und uns die Möglichkeit gab, durch ihn zu lernen. (DCI)",
   },
   {
     id: 5,
