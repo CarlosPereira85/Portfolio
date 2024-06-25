@@ -10,7 +10,7 @@ const Project = () => {
   useEffect(() => {
     console.log("Selected category:", selectedItem.name);
     if (selectedItem.name === "All") {
-      console.log("Setting projects to all projectsData");
+      console.log("Setting projects to all projectsDat");
       setProjects(projectsData);
     } else {
       console.log("Filtering projectsData for category:", selectedItem.name);
