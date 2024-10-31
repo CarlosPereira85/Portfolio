@@ -64,7 +64,7 @@ const Qualifications = () => {
 
                 <div className="qual__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  2023 - Present
+                  2023 - 2024
                 </div>
               </div>
 
